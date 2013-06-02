@@ -1,0 +1,124 @@
+%-----------------------------------------
+% Sérgio Serrano - serrano.miser [at] gmail.com
+% Curriculum Vitae
+%
+% This document is covered under the Creative Commons Attribution 3.0 Unported License
+%-----------------------------------------
+
+\documentclass[11pt,a4paper,final]{moderncv}
+\usepackage{fontspec}
+\moderncvtheme[darkred]{classic}
+
+% DOCUMENT LAYOUT
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}
+\AtBeginDocument{\recomputelengths}
+% FONTS
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+% Personal Information 
+\firstname{Sérgio}
+\familyname{Serrano}
+\title{Curriculum Vitae}
+\homepage{about.me/sergioserrano}
+
+\nopagenumbers{}
+
+%-----------------------------------------
+%	Begin BODY
+%-----------------------------------------
+
+\begin{document}
+\maketitle
+
+\section{Education} %%%%%%%%%%%%%%%%%%%%
+
+\cventry{August 2009 - December 2010}{Master of Science in Information Technology - Information Security}{Carnegie Mellon University}{Pittsburgh, PA}{Final QPA: 3.83}{Thesis: "Security Analysis of Network Neighbors". Advisor: Nicolas Christin.}
+
+% If I want to give more academic detail
+%\cventry{Relevant courses:}{}{}{}{} {
+%\vspace*{-8.2mm}
+%\begin{itemize}\setlength\itemindent{0pt}
+%\begin{itemize}\setlength\itemindent{0pt}
+%   \item Secure Software Systems
+%    \item Embedded Systems
+%    \item Fault-Tolerant Distributed Systems
+%    \item Network Security
+%    \item Applied Security
+% \end{itemize}
+%}
+
+\cventry{September 1994 - October 1999}{Bachelor in Electrotechnical Engineering (5 years degree)}{Faculdade de Ciências e Tecnologia, Universidade Nova de Lisboa.}{Monte de Caparica, Portugal}{Grade: 14 (0-20 scale)}{}
+
+\section{Experience} %%%%%%%%%%%%%%%%%%%%
+
+\cventry{October 2012 - Present}{Software Engineer, Security and ID team}{Portugal Telecom}{}{}{
+    \begin{itemize}
+	\item Main developer and operation manager of SSO solution (https://login.sapo.pt/);
+	\item Main developer and operation manager of identity management solution (https://id.sapo.pt/);
+        \item Security solutions development;
+        \item Tools and Technologies: Apache, Apache Tomcat, J2EE, Python, Django, Shibboleth, Memcached, SAML, OAuth, OpenID, YubiKey, Git.
+    \end{itemize}
+}
+
+\cventry{February 2011 – November 2012}{Networking and IT Security Engineer}{Portugal Telecom}{}{}{
+    \begin{itemize}
+        \item Development of network and IT security architectures;
+        \item Development of network security program for SAPO (http://www.sapo.pt/) and residential ISP;
+        \item Network security incident handler;
+        \item Development of security vulnerabilities management tool based in the Django web framework;
+        \item Development of tools to support network operation, maintenance tasks and management reporting;
+        \item Tools and Technologies: IP, Cisco, DPI, OSSIM, Snort, OSSEC, CVSS, Honeypots, ExaBGP, Python, Django, MySQL, Subversion.
+    \end{itemize}
+}
+
+\cventry{April 2005 – January 2011}{Network Engineer}{Portugal Telecom}{}{}{
+    \begin{itemize}
+        \item Network engineering for all related services of SAPO (http://www.sapo.pt/);
+        \item ISP services network infrastructure development. Includes RADIUS (AAA) and DNS;
+        \item ISP core network QoS monitoring and engineering;
+        \item Development of tools to support network operation, maintenance tasks and management reporting;
+        \item Tools and Technologies: IP, RADIUS (AAA), DNS, Cisco, Alteon, Apache, *NIX, Perl, Cacti, Nagios, Centreon, virtualization.
+    \end{itemize}
+}
+
+\cventry{April 2001 to March 2005}{Software Developer and Chief Engineer}{Siemens}{}{}{
+    \begin{itemize}
+        \item xDSL, ATM large scale network provisioning application development for Service Provisioning;
+        \item Web reporting applications development for Performance Management;
+        \item Tools and Technologies: C++, CORBA, Versant Database, IBM Clearcase control versioning, Apache Tomcat, JSP and Servlets, XML, Adobe Flash and Adobe Coldfusion.
+    \end{itemize}
+}
+
+\cventry{September 1999 to March 2001}{Pre-Sales Networking Projects Manager}{Telepac}{}{}{
+    \begin{itemize}
+        \item ISP pre-sales networking projects management and development;
+        \item Enterprise technical support for Internet solutions;
+        \item Tools and Technologies: xDSL, Frame-Relay, HDLC, IP, Routing, Linux, DNS, SMTP, IMAP, POP3.
+    \end{itemize}
+}
+
+\section{Technical skills} %%%%%%%%%%%%%%%%%%%%
+
+\cvline{Languages}{Advanced knowledge of Java, C++, Python and good knowledge of Perl, Bash, Assembly, HTML, XML, CFML, Adobe Flash ActionScript.}
+\cvline{Information Security}{Software and network security, cryptography, VPNs, DPI, IDS and honeypots.}
+\cvline{Databases}{Relational and Object Oriented Databases.}
+\cvline{Devops}{Ticketing and monitoring systems deployment.}
+\cvline{Tools}{Eclipse, Vi, Git, Subversion, ClearCase, OTRS, Cacti, Nagios, Centreon.}
+\cvline{Networking}{TCP/IP, BGP, Load Balancing. Hands-on experience with Cisco, Nortel and Crossbeam Equipments.}
+
+\section{Languages} %%%%%%%%%%%%%%%%%%%%
+
+\cvlanguage{Portuguese}{Fluent}{Native language.}
+\cvlanguage{English}{Fluent}{Speaking, reading, and writing.}
+\cvlanguage{French}{Intermediate}{Speaking, reading, and writing.}
+\cvlanguage{Spanish}{Intermediate}{Speaking, reading.}
+ 
+\section{Interests} %%%%%%%%%%%%%%%%%%%%
+
+\cvline{Karaté Shotokan}{Keeping the balance since 1986.}
+\cvline{BTT}{Riding a bicycle while being surrounded by nature. That is it.}
+\cvline{Comics}{Besides being an avid consumer I have also entered the amazing realm of creation (http://almiscaro.no.sapo.pt/).}
+\cvline{Theater}{Before stepping into the world of IT I worked as a professional actor.}
+
+\end{document}
